@@ -1,0 +1,96 @@
+/* JANGAN RUBAH DISINI!! RUBAH PADA FILE style.scss */
+
+body {
+  background-color: grey;
+}
+
+.container {
+  background-color: crimson;
+  width: 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 10px solid black;
+}
+
+.container h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+}
+
+.hasilContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hasilContainer input {
+  margin: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+.btnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.btnContainer .btnAngka {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.btnContainer .btnAngka button.Angka {
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.btnContainer .btnAngka button.Angka:hover {
+  background-color: lightblue;
+}
+
+.btnContainer .btnOperator {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.btnContainer .btnOperator button.Operator {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.btnContainer .btnOperator button.Operator:hover {
+  background-color: lightblue;
+}
+
+.btnContainer .btnOperator p {
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
